@@ -1,0 +1,402 @@
+[
+    {
+        "id": 1,
+        "category": "storytelling",
+        "prompt": "Describe a quiet village hidden between two mountains and explain what makes its daily life unusual."
+    },
+    {
+        "id": 2,
+        "category": "storytelling",
+        "prompt": "Write the opening of a story about a student who finds an old key inside a library book."
+    },
+    {
+        "id": 3,
+        "category": "storytelling",
+        "prompt": "Describe a scientist arriving at an abandoned research station during a heavy snowstorm."
+    },
+    {
+        "id": 4,
+        "category": "storytelling",
+        "prompt": "Tell a short story about a child who discovers that a small garden plant reacts to music."
+    },
+    {
+        "id": 5,
+        "category": "storytelling",
+        "prompt": "Create a description of a busy market in a coastal town just before sunrise."
+    },
+    {
+        "id": 6,
+        "category": "storytelling",
+        "prompt": "Write a story about two strangers who become friends while waiting for a delayed train."
+    },
+    {
+        "id": 7,
+        "category": "storytelling",
+        "prompt": "Describe an ancient lighthouse that has not been used for many years but still shines every night."
+    },
+    {
+        "id": 8,
+        "category": "storytelling",
+        "prompt": "Imagine a small robot helping an elderly shopkeeper in a neighborhood store. Describe one unusual day."
+    },
+    {
+        "id": 9,
+        "category": "storytelling",
+        "prompt": "Write the beginning of a mystery about a letter that arrives without a name or address."
+    },
+    {
+        "id": 10,
+        "category": "storytelling",
+        "prompt": "Describe a forest where every path seems to lead visitors back to the same wooden bridge."
+    },
+    {
+        "id": 11,
+        "category": "storytelling",
+        "prompt": "Tell a story about a young artist who loses confidence before an important exhibition."
+    },
+    {
+        "id": 12,
+        "category": "storytelling",
+        "prompt": "Describe the atmosphere inside a spacecraft crew's cabin during their first night in orbit."
+    },
+    {
+        "id": 13,
+        "category": "storytelling",
+        "prompt": "Write a short adventure about a map that changes whenever its owner makes a difficult decision."
+    },
+    {
+        "id": 14,
+        "category": "storytelling",
+        "prompt": "Describe a family preparing an old house for a celebration after many years apart."
+    },
+    {
+        "id": 15,
+        "category": "storytelling",
+        "prompt": "Create a story about a fisherman who discovers a glass bottle containing a handwritten message."
+    },
+    {
+        "id": 16,
+        "category": "storytelling",
+        "prompt": "Describe a small town where everyone gathers at the railway station every Friday evening."
+    },
+    {
+        "id": 17,
+        "category": "storytelling",
+        "prompt": "Write a scene in which a traveler enters a hotel where none of the clocks show the same time."
+    },
+    {
+        "id": 18,
+        "category": "storytelling",
+        "prompt": "Tell a story about a student who learns an unexpected lesson from repairing a broken bicycle."
+    },
+    {
+        "id": 19,
+        "category": "storytelling",
+        "prompt": "Describe a mountain cabin during a summer thunderstorm from the perspective of someone staying inside."
+    },
+    {
+        "id": 20,
+        "category": "storytelling",
+        "prompt": "Write the opening scene of a story about a museum guard who hears footsteps after closing time."
+    },
+    {
+        "id": 21,
+        "category": "general_knowledge",
+        "prompt": "Explain how the water cycle moves water through the atmosphere, land, and oceans."
+    },
+    {
+        "id": 22,
+        "category": "general_knowledge",
+        "prompt": "Describe how a computer processor carries out instructions and why its clock speed matters."
+    },
+    {
+        "id": 23,
+        "category": "general_knowledge",
+        "prompt": "Explain why the Moon appears to change shape during different phases of the month."
+    },
+    {
+        "id": 24,
+        "category": "general_knowledge",
+        "prompt": "Describe how plants use sunlight, water, and carbon dioxide to produce energy-rich sugars."
+    },
+    {
+        "id": 25,
+        "category": "general_knowledge",
+        "prompt": "Explain the basic differences between renewable and non-renewable energy sources."
+    },
+    {
+        "id": 26,
+        "category": "general_knowledge",
+        "prompt": "Describe how a search engine finds and organizes information from websites."
+    },
+    {
+        "id": 27,
+        "category": "general_knowledge",
+        "prompt": "Explain why the ocean has tides and how the Moon influences them."
+    },
+    {
+        "id": 28,
+        "category": "general_knowledge",
+        "prompt": "Describe the role of bacteria in human digestion and in natural ecosystems."
+    },
+    {
+        "id": 29,
+        "category": "general_knowledge",
+        "prompt": "Explain how a refrigerator transfers heat from its interior to the surrounding room."
+    },
+    {
+        "id": 30,
+        "category": "general_knowledge",
+        "prompt": "Describe the main stages involved in turning raw cotton into a cotton shirt."
+    },
+    {
+        "id": 31,
+        "category": "general_knowledge",
+        "prompt": "Explain what a computer network is and how devices communicate within a local network."
+    },
+    {
+        "id": 32,
+        "category": "general_knowledge",
+        "prompt": "Describe how earthquakes occur and why some regions experience them more often than others."
+    },
+    {
+        "id": 33,
+        "category": "general_knowledge",
+        "prompt": "Explain the difference between weather and climate using everyday examples."
+    },
+    {
+        "id": 34,
+        "category": "general_knowledge",
+        "prompt": "Describe how the human eye focuses light to form an image on the retina."
+    },
+    {
+        "id": 35,
+        "category": "general_knowledge",
+        "prompt": "Explain why metals generally conduct heat and electricity better than many non-metal materials."
+    },
+    {
+        "id": 36,
+        "category": "general_knowledge",
+        "prompt": "Describe how recycling paper reduces the need for new raw materials."
+    },
+    {
+        "id": 37,
+        "category": "general_knowledge",
+        "prompt": "Explain what an algorithm is and give an example from an ordinary daily activity."
+    },
+    {
+        "id": 38,
+        "category": "general_knowledge",
+        "prompt": "Describe how sound travels through air and why its pitch can change."
+    },
+    {
+        "id": 39,
+        "category": "general_knowledge",
+        "prompt": "Explain the purpose of a database and how a table can organize information."
+    },
+    {
+        "id": 40,
+        "category": "general_knowledge",
+        "prompt": "Describe how bees contribute to pollination and why this process matters for agriculture."
+    },
+    {
+        "id": 41,
+        "category": "reasoning",
+        "prompt": "Compare studying alone with studying in a group, and explain when each approach may be more effective."
+    },
+    {
+        "id": 42,
+        "category": "reasoning",
+        "prompt": "Explain why a city might experience heavier traffic during certain hours of the day."
+    },
+    {
+        "id": 43,
+        "category": "reasoning",
+        "prompt": "A school wants to reduce electricity use. Suggest several practical changes and explain which should be prioritized."
+    },
+    {
+        "id": 44,
+        "category": "reasoning",
+        "prompt": "Compare public transportation and private cars in terms of cost, convenience, and environmental impact."
+    },
+    {
+        "id": 45,
+        "category": "reasoning",
+        "prompt": "Explain why checking the source of an online claim is important before sharing it."
+    },
+    {
+        "id": 46,
+        "category": "reasoning",
+        "prompt": "A small business has many customer records stored in separate spreadsheets. Explain the problems this may cause and propose a better approach."
+    },
+    {
+        "id": 47,
+        "category": "reasoning",
+        "prompt": "Why can adding more workers sometimes fail to make a project finish sooner? Explain the factors involved."
+    },
+    {
+        "id": 48,
+        "category": "reasoning",
+        "prompt": "Compare a wired network and a wireless network for a small computer laboratory."
+    },
+    {
+        "id": 49,
+        "category": "reasoning",
+        "prompt": "Explain how poor sleep can affect concentration, memory, and decision-making during the day."
+    },
+    {
+        "id": 50,
+        "category": "reasoning",
+        "prompt": "A student has several assignments due in the same week. Describe a rational method for prioritizing the work."
+    },
+    {
+        "id": 51,
+        "category": "reasoning",
+        "prompt": "Explain why a faster internet connection does not always guarantee a better video call."
+    },
+    {
+        "id": 52,
+        "category": "reasoning",
+        "prompt": "Compare learning a programming language by reading documentation with learning through practical projects."
+    },
+    {
+        "id": 53,
+        "category": "reasoning",
+        "prompt": "A town is considering building a new park. Discuss the benefits, possible costs, and factors that should guide the decision."
+    },
+    {
+        "id": 54,
+        "category": "reasoning",
+        "prompt": "Explain why repeating an experiment under the same conditions helps improve confidence in scientific results."
+    },
+    {
+        "id": 55,
+        "category": "reasoning",
+        "prompt": "A website loads slowly even though the server has enough capacity. Identify possible causes and explain how to investigate them."
+    },
+    {
+        "id": 56,
+        "category": "reasoning",
+        "prompt": "Compare storing files on a local computer with storing them in a cloud service."
+    },
+    {
+        "id": 57,
+        "category": "reasoning",
+        "prompt": "Explain why correlation between two events does not necessarily mean that one event causes the other."
+    },
+    {
+        "id": 58,
+        "category": "reasoning",
+        "prompt": "A team frequently misses project deadlines. Analyze possible causes and suggest a step-by-step improvement plan."
+    },
+    {
+        "id": 59,
+        "category": "reasoning",
+        "prompt": "Explain the trade-offs between making a software system simple and adding more features."
+    },
+    {
+        "id": 60,
+        "category": "reasoning",
+        "prompt": "A household wants to reduce food waste. Identify likely sources of waste and recommend practical ways to address them."
+    },
+    {
+        "id": 61,
+        "category": "creativity_dialogue",
+        "prompt": "Write a conversation between a student and a librarian who disagree about whether printed books will remain important."
+    },
+    {
+        "id": 62,
+        "category": "creativity_dialogue",
+        "prompt": "Imagine a city where people can store one memory in a public archive. Describe how the system works and what problems it creates."
+    },
+    {
+        "id": 63,
+        "category": "creativity_dialogue",
+        "prompt": "Create three unusual but practical inventions that could make everyday life easier for people living in small apartments."
+    },
+    {
+        "id": 64,
+        "category": "creativity_dialogue",
+        "prompt": "Write a dialogue between a cautious astronaut and an enthusiastic engineer preparing a rover for an unexplored area."
+    },
+    {
+        "id": 65,
+        "category": "creativity_dialogue",
+        "prompt": "Imagine that animals can send one short message to humans each year. Write the message from a sea turtle."
+    },
+    {
+        "id": 66,
+        "category": "creativity_dialogue",
+        "prompt": "Invent a fictional school subject that teaches students how to solve real-world problems through teamwork."
+    },
+    {
+        "id": 67,
+        "category": "creativity_dialogue",
+        "prompt": "Write a conversation between two friends planning a trip when they have very different budgets and interests."
+    },
+    {
+        "id": 68,
+        "category": "creativity_dialogue",
+        "prompt": "Imagine a device that can translate emotions into colors. Explain how people might use it and misunderstand it."
+    },
+    {
+        "id": 69,
+        "category": "creativity_dialogue",
+        "prompt": "Create a short scene in which a customer asks a repair technician to fix an object that should not be possible to repair."
+    },
+    {
+        "id": 70,
+        "category": "creativity_dialogue",
+        "prompt": "Imagine a future library that lends tools, skills, and experiences instead of only books. Describe a visitor's experience."
+    },
+    {
+        "id": 71,
+        "category": "creativity_dialogue",
+        "prompt": "Write a dialogue between a beginner programmer and an experienced developer debugging a confusing error."
+    },
+    {
+        "id": 72,
+        "category": "creativity_dialogue",
+        "prompt": "Invent a small community project that could help neighbors share useful skills and resources."
+    },
+    {
+        "id": 73,
+        "category": "creativity_dialogue",
+        "prompt": "Imagine that every person receives a personal assistant robot for one day. Describe an unexpected problem that occurs."
+    },
+    {
+        "id": 74,
+        "category": "creativity_dialogue",
+        "prompt": "Write a conversation between a historian and a game designer discussing how to represent the past accurately in a game."
+    },
+    {
+        "id": 75,
+        "category": "creativity_dialogue",
+        "prompt": "Create a fictional festival based on the changing seasons and describe its main activities."
+    },
+    {
+        "id": 76,
+        "category": "creativity_dialogue",
+        "prompt": "Imagine a world where people can pause time for ten minutes once a month. Explore how someone might use this ability."
+    },
+    {
+        "id": 77,
+        "category": "creativity_dialogue",
+        "prompt": "Write a dialogue between a shop owner and a customer who wants to return an unusual handmade product."
+    },
+    {
+        "id": 78,
+        "category": "creativity_dialogue",
+        "prompt": "Design a simple board game that teaches players about computer networks, and explain its basic rules."
+    },
+    {
+        "id": 79,
+        "category": "creativity_dialogue",
+        "prompt": "Imagine a machine that allows people to hear how a place sounded one hundred years ago. Describe its first public demonstration."
+    },
+    {
+        "id": 80,
+        "category": "creativity_dialogue",
+        "prompt": "Write a short conversation between two people who meet in a waiting room and discover they are solving the same problem."
+    }
+]

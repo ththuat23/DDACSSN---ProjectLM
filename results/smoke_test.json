@@ -1,0 +1,267 @@
+[
+    {
+        "prompt_id": 1,
+        "category": "storytelling",
+        "prompt": "Describe a quiet village hidden between two mountains and explain what makes its daily life unusual.",
+        "strategy": "greedy",
+        "parameters": {},
+        "generated_text": "Describe a quiet village hidden between two mountains and explain what makes its daily life unusual.\n\nThe story of the village is told in the book \"The Story of the Village\" by the author, and is narrated by the author's",
+        "latency_seconds": 4.3138
+    },
+    {
+        "prompt_id": 1,
+        "category": "storytelling",
+        "prompt": "Describe a quiet village hidden between two mountains and explain what makes its daily life unusual.",
+        "strategy": "beam_search",
+        "parameters": {
+            "beam_width": 5
+        },
+        "generated_text": "Describe a quiet village hidden between two mountains and explain what makes its daily life unusual.",
+        "latency_seconds": 13.0271
+    },
+    {
+        "prompt_id": 1,
+        "category": "storytelling",
+        "prompt": "Describe a quiet village hidden between two mountains and explain what makes its daily life unusual.",
+        "strategy": "temperature",
+        "parameters": {
+            "temperature": 1.0
+        },
+        "generated_text": "Describe a quiet village hidden between two mountains and explain what makes its daily life unusual. 1) Such a furnace supplies electricity continuously for days or, in some villages, nights. 2) For centuries, charcoal is the most widely used fuel",
+        "latency_seconds": 3.2722
+    },
+    {
+        "prompt_id": 1,
+        "category": "storytelling",
+        "prompt": "Describe a quiet village hidden between two mountains and explain what makes its daily life unusual.",
+        "strategy": "top_k",
+        "parameters": {
+            "top_k": 50
+        },
+        "generated_text": "Describe a quiet village hidden between two mountains and explain what makes its daily life unusual. 1) The village is well known for the long river, the huge fields and its high slopes, it's a beautiful place to live in. 2",
+        "latency_seconds": 3.4866
+    },
+    {
+        "prompt_id": 1,
+        "category": "storytelling",
+        "prompt": "Describe a quiet village hidden between two mountains and explain what makes its daily life unusual.",
+        "strategy": "top_p",
+        "parameters": {
+            "top_p": 0.9
+        },
+        "generated_text": "Describe a quiet village hidden between two mountains and explain what makes its daily life unusual. 1) Such a village was in actuality, a pass-through village once again, we say. Its residents are poor, unemployed, usually badly",
+        "latency_seconds": 3.5559
+    },
+    {
+        "prompt_id": 2,
+        "category": "storytelling",
+        "prompt": "Write the opening of a story about a student who finds an old key inside a library book.",
+        "strategy": "greedy",
+        "parameters": {},
+        "generated_text": "Write the opening of a story about a student who finds an old key inside a library book.\n\nThe opening of a story about a student who finds an old key inside a library book. The opening of a story about a student who finds",
+        "latency_seconds": 3.2312
+    },
+    {
+        "prompt_id": 2,
+        "category": "storytelling",
+        "prompt": "Write the opening of a story about a student who finds an old key inside a library book.",
+        "strategy": "beam_search",
+        "parameters": {
+            "beam_width": 5
+        },
+        "generated_text": "Write the opening of a story about a student who finds an old key inside a library book.\n\nThe opening of a story about a student who finds an old key inside a library book.\n\nThe opening of a story about a student",
+        "latency_seconds": 15.8104
+    },
+    {
+        "prompt_id": 2,
+        "category": "storytelling",
+        "prompt": "Write the opening of a story about a student who finds an old key inside a library book.",
+        "strategy": "temperature",
+        "parameters": {
+            "temperature": 1.0
+        },
+        "generated_text": "Write the opening of a story about a student who finds an old key inside a library book. The fairy foyer moves quietly in shock. If someone is translating the book then again would we say it's for a choir player? It seems like",
+        "latency_seconds": 3.7911
+    },
+    {
+        "prompt_id": 2,
+        "category": "storytelling",
+        "prompt": "Write the opening of a story about a student who finds an old key inside a library book.",
+        "strategy": "top_k",
+        "parameters": {
+            "top_k": 50
+        },
+        "generated_text": "Write the opening of a story about a student who finds an old key inside a library book. The opening takes a little while in this series, but it is worth it once again.\n\nIf you get tired of the TV series, skip",
+        "latency_seconds": 4.0262
+    },
+    {
+        "prompt_id": 2,
+        "category": "storytelling",
+        "prompt": "Write the opening of a story about a student who finds an old key inside a library book.",
+        "strategy": "top_p",
+        "parameters": {
+            "top_p": 0.9
+        },
+        "generated_text": "Write the opening of a story about a student who finds an old key inside a library book. The fairy fang moves the closet door open so that whoever is moving the closet door would not find it. The Fairy is the one who opened the",
+        "latency_seconds": 5.0939
+    },
+    {
+        "prompt_id": 3,
+        "category": "storytelling",
+        "prompt": "Describe a scientist arriving at an abandoned research station during a heavy snowstorm.",
+        "strategy": "greedy",
+        "parameters": {},
+        "generated_text": "Describe a scientist arriving at an abandoned research station during a heavy snowstorm.\n\n\"I'm not sure what to say,\" he said. \"I'm not sure what to say. I'm not sure what to say",
+        "latency_seconds": 5.7542
+    },
+    {
+        "prompt_id": 3,
+        "category": "storytelling",
+        "prompt": "Describe a scientist arriving at an abandoned research station during a heavy snowstorm.",
+        "strategy": "beam_search",
+        "parameters": {
+            "beam_width": 5
+        },
+        "generated_text": "Describe a scientist arriving at an abandoned research station during a heavy snowstorm.\n\nDescribe a scientist arriving at an abandoned research station during a heavy snowstorm. Describe a scientist arriving at an abandoned research station during a",
+        "latency_seconds": 15.8827
+    },
+    {
+        "prompt_id": 3,
+        "category": "storytelling",
+        "prompt": "Describe a scientist arriving at an abandoned research station during a heavy snowstorm.",
+        "strategy": "temperature",
+        "parameters": {
+            "temperature": 1.0
+        },
+        "generated_text": "Describe a scientist arriving at an abandoned research station during a heavy snowstorm. The fairy feline moves quietly in shock. If they pass by the surrounding dark and sky we can hear her for a moment. Once inside the lab",
+        "latency_seconds": 3.7453
+    },
+    {
+        "prompt_id": 3,
+        "category": "storytelling",
+        "prompt": "Describe a scientist arriving at an abandoned research station during a heavy snowstorm.",
+        "strategy": "top_k",
+        "parameters": {
+            "top_k": 50
+        },
+        "generated_text": "Describe a scientist arriving at an abandoned research station during a heavy snowstorm. The professor could not be reached for comment.",
+        "latency_seconds": 1.2273
+    },
+    {
+        "prompt_id": 3,
+        "category": "storytelling",
+        "prompt": "Describe a scientist arriving at an abandoned research station during a heavy snowstorm.",
+        "strategy": "top_p",
+        "parameters": {
+            "top_p": 0.9
+        },
+        "generated_text": "Describe a scientist arriving at an abandoned research station during a heavy snowstorm. The asteroid could form a massive collision course with Earth or, in some cases, even interfere with our research. The asteroid is the most massive asteroid ever",
+        "latency_seconds": 3.9668
+    },
+    {
+        "prompt_id": 4,
+        "category": "storytelling",
+        "prompt": "Tell a short story about a child who discovers that a small garden plant reacts to music.",
+        "strategy": "greedy",
+        "parameters": {},
+        "generated_text": "Tell a short story about a child who discovers that a small garden plant reacts to music.\n\nA story about a child who discovers that a small garden plant reacts to music. A story about a child who discovers that a small garden plant",
+        "latency_seconds": 3.1317
+    },
+    {
+        "prompt_id": 4,
+        "category": "storytelling",
+        "prompt": "Tell a short story about a child who discovers that a small garden plant reacts to music.",
+        "strategy": "beam_search",
+        "parameters": {
+            "beam_width": 5
+        },
+        "generated_text": "Tell a short story about a child who discovers that a small garden plant reacts to music.\n\nA short story about a child who discovers that a small garden plant reacts to music.\n\nA short story about a child who discovers that",
+        "latency_seconds": 19.1271
+    },
+    {
+        "prompt_id": 4,
+        "category": "storytelling",
+        "prompt": "Tell a short story about a child who discovers that a small garden plant reacts to music.",
+        "strategy": "temperature",
+        "parameters": {
+            "temperature": 1.0
+        },
+        "generated_text": "Tell a short story about a child who discovers that a small garden plant reacts to music. The fairy fang moves the tree down the front garden, showing the young boy and talking to him. The story closes. Takes place inside ACM",
+        "latency_seconds": 3.2432
+    },
+    {
+        "prompt_id": 4,
+        "category": "storytelling",
+        "prompt": "Tell a short story about a child who discovers that a small garden plant reacts to music.",
+        "strategy": "top_k",
+        "parameters": {
+            "top_k": 50
+        },
+        "generated_text": "Tell a short story about a child who discovers that a small garden plant reacts to music. The child finds a way to stop this plant from growing, and becomes one with music.\n\nA Christmas story.\n\nA story involving a",
+        "latency_seconds": 3.2586
+    },
+    {
+        "prompt_id": 4,
+        "category": "storytelling",
+        "prompt": "Tell a short story about a child who discovers that a small garden plant reacts to music.",
+        "strategy": "top_p",
+        "parameters": {
+            "top_p": 0.9
+        },
+        "generated_text": "Tell a short story about a child who discovers that a small garden plant reacts to music. The fairy fang moves the tree down the front garden, showing the young boy and talking to him. The story closes.\n\nWriter: Andrew",
+        "latency_seconds": 3.3203
+    },
+    {
+        "prompt_id": 5,
+        "category": "storytelling",
+        "prompt": "Create a description of a busy market in a coastal town just before sunrise.",
+        "strategy": "greedy",
+        "parameters": {},
+        "generated_text": "Create a description of a busy market in a coastal town just before sunrise.\n\nThe city of San Francisco is known for its high-end restaurants, but the city's most popular restaurants are located in the city's most",
+        "latency_seconds": 2.7209
+    },
+    {
+        "prompt_id": 5,
+        "category": "storytelling",
+        "prompt": "Create a description of a busy market in a coastal town just before sunrise.",
+        "strategy": "beam_search",
+        "parameters": {
+            "beam_width": 5
+        },
+        "generated_text": "Create a description of a busy market in a coastal town just before sunrise.\n\nIf you're looking for an easy way to get around the city, this is the place to go.\n\nIf you're looking for",
+        "latency_seconds": 13.15
+    },
+    {
+        "prompt_id": 5,
+        "category": "storytelling",
+        "prompt": "Create a description of a busy market in a coastal town just before sunrise.",
+        "strategy": "temperature",
+        "parameters": {
+            "temperature": 1.0
+        },
+        "generated_text": "Create a description of a busy market in a coastal town just before sunrise. The customers consist of travellers from across Canada, who arrive to the Laon Plateau in the middle of the night.\n\nQuebec ACM",
+        "latency_seconds": 2.8722
+    },
+    {
+        "prompt_id": 5,
+        "category": "storytelling",
+        "prompt": "Create a description of a busy market in a coastal town just before sunrise.",
+        "strategy": "top_k",
+        "parameters": {
+            "top_k": 50
+        },
+        "generated_text": "Create a description of a busy market in a coastal town just before sunrise. The market takes a couple of minutes to fill, but it is worth it once again.\n\nFrom an outdoor location. For this reason, many",
+        "latency_seconds": 2.9213
+    },
+    {
+        "prompt_id": 5,
+        "category": "storytelling",
+        "prompt": "Create a description of a busy market in a coastal town just before sunrise.",
+        "strategy": "top_p",
+        "parameters": {
+            "top_p": 0.9
+        },
+        "generated_text": "Create a description of a busy market in a coastal town just before sunrise. The customers consist of travellers from across Canada, who arrive to the Laon Plateau in the middle of the night.\n\nQuebec One –",
+        "latency_seconds": 3.3931
+    }
+]

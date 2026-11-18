@@ -1,0 +1,11 @@
+Cần cài môi trường ảo venv hoặc conda để cài đặt các thư viện cần thiết.
+
+Cần cài đặt các Extension cho VS Code sau:
+- Python
+- Jupyter
+- Pylance
+- Code runner (Optional)
+
+Cần cài đặt các thư viện sau:
+- torch
+- transformers
