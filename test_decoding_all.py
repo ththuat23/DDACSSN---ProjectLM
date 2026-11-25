@@ -17,7 +17,7 @@ prompt = "Artificial intelligence is"
 max_tokens = 50
 
 # HÀM ĐO THỜI GIAN
-def test_strategy(name, decode_function, **kwargs):
+def run_strategy(name, decode_function, **kwargs):
     print(f"\n{name} -")
 
     if torch.cuda.is_available():
@@ -46,30 +46,30 @@ def test_strategy(name, decode_function, **kwargs):
 # CHẠY 5 PHƯƠNG PHÁP
 results = {}
 
-results["Greedy"] = test_strategy(
+results["Greedy"] = run_strategy(
     "GREEDY",
     greedy_decode
 )
 
-results["Beam Search"] = test_strategy(
+results["Beam Search"] = run_strategy(
     "BEAM SEARCH",
     beam_search_decode,
     beam_width=5
 )
 
-results["Temperature"] = test_strategy(
+results["Temperature"] = run_strategy(
     "TEMPERATURE",
     temperature_decode,
     temperature=0.8
 )
 
-results["Top-k"] = test_strategy(
+results["Top-k"] = run_strategy(
     "TOP-K",
     top_k_decode,
     top_k=50
 )
 
-results["Top-p"] = test_strategy(
+results["Top-p"] = run_strategy(
     "TOP-P",
     top_p_decode,
     top_p=0.9

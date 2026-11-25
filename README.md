@@ -96,10 +96,21 @@ python -m jupyter notebook experiments\experiment.ipynb
   Beam Search khoảng 36.5 giây, Temperature/Top-k khoảng 7.9 giây và Top-p
   khoảng 8.5 giây. Đây chỉ là kết quả thử riêng, phụ thuộc cấu hình máy.
 
-## 6. Công việc tiếp theo
+## 6. Cập nhật tuần 4
 
-- Hoàn thiện toàn bộ so sánh trên 80 prompt.
-- Cố định seed và thống nhất độ dài sinh, hardware, warm-up và EOS.
-- Đo latency, throughput và peak memory trên cùng thiết lập.
-- Hoàn thiện Distinct-n, Repetition Rate và Perplexity.
-- Xử lý phần lặp và kiểm tra đầu ra chỉ chứa phần văn bản mới sinh.
+- `decoding/beam_search.py`: bổ sung length penalty (alpha), `min_new_tokens`
+  và các tham số Beam Search; cấu hình trong thí nghiệm dùng beam width 5,
+  alpha 0.6 và tối thiểu 0 token mới, trong thí nghiệm chỉ test riêng 
+  `min_new_tokens` thì đặt tối thiểu 60 token với 80 tối đa.
+- `decoding/combined.py`: kết hợp Temperature với Top-k hoặc Top-p để sinh văn
+  bản; chỉ chọn một trong hai bộ lọc.
+- `evaluation/`: gồm các file đo hiệu năng sinh, Distinct-n, repetition rate
+  và perplexity.
+- `models/model_loader.py`: hỗ trợ tải GPT-2 Medium để tính perplexity trong
+  giai đoạn evaluation.
+- `run_experiments_2.py`: chạy 7 phương pháp trên 20 prompt (5 prompt cho mỗi
+  category); Greedy và Beam Search chạy một lần, 5 phương pháp sampling chạy
+  với 3 seed, tổng cộng 340 kết quả lưu tại `results/raw_results.json`.
+- `evaluate_results.py`: đọc `results/raw_results.json`, tính các chỉ số đánh
+  giá và lưu chi tiết vào `results/evaluation_details.json`, tổng hợp vào
+  `results/evaluation_summary.csv`.
