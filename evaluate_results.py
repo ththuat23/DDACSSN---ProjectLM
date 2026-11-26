@@ -210,39 +210,32 @@ def main():
 
         if not generated_text.strip():
             print("Warning: Văn bản sinh ra đang rỗng")
-            print("Skipping Perplexity for this sample.")
+            print("Skipping this sample.")
+            continue
 
-            metrics = {
-                "distinct_1": 0.0,
-                "distinct_2": 0.0,
-                "distinct_3": 0.0,
-                "repetition_rate": 0.0,
-                "perplexity": 0.0
-            }
-        else:
-            metrics = evaluate_text(
-                eval_model,
-                eval_tokenizer,
-                item["prompt"],
-                generated_text
-            )
+        metrics = evaluate_text(
+            eval_model,
+            eval_tokenizer,
+            item["prompt"],
+            generated_text
+        )
 
-            print(
-                f"Distinct-1: {metrics['distinct_1']:.4f}"
-            )
+        print(
+            f"Distinct-1: {metrics['distinct_1']:.4f}"
+        )
 
-            print(
-                f"Distinct-2: {metrics['distinct_2']:.4f}"
-            )
+        print(
+            f"Distinct-2: {metrics['distinct_2']:.4f}"
+        )
 
-            print(
-                f"Repetition Rate: "
-                f"{metrics['repetition_rate']:.2f}%"
-            )
+        print(
+            f"Repetition Rate: "
+            f"{metrics['repetition_rate']:.2f}%"
+        )
 
-            print(
-                f"Perplexity: {metrics['perplexity']:.4f}"
-            )
+        print(
+            f"Perplexity: {metrics['perplexity']:.4f}"
+        )
 
         # Giữ dữ liệu gốc và bổ sung các chỉ số đánh giá
         record = item.copy()
